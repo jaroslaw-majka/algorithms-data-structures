@@ -1,19 +1,13 @@
-# Algorithms and Data Structures
-Algorithms and Data Structures for Python with short explanation
+# Overview
+Linked Lists are an ordered collection of objects.
+Each element of a Linked List is called a **node**.
+Each **node** contains at least 2 fields:
+* **data** - data that needs to be stored in the **node**
+* **next** - reference to the next **node** on the list
 
-# Arrays
+## Section information
 
-This section describes basic array manipulation methods.
-The section files can be found in `/arrays` directory of this repository.
-
-Currently covered methods:
-* Prefix Sum: [`prefix_sum.py`](/arrays/prefix_sum.py)
-* Sliding Window: [`sliding_window.py`](/arrays/sliding_window.py)
-* Two Pointer Technique: [`two_pointer.py`](/arrays/two_pointer.py)
-
-# Linked Lists
-
-This section is about Linked Lists, a short overview of those can be found [here](/linked_lists/README.md)
+Most of the operations presented in this section will be performed based on the [linked_list_node.py](/linked_lists/linked_list_node.py) file, and the objects defined there.
 
 Currently covered operations are:
 * Reverse linked list: [`reverse_linked_list.py`](/linked_lists/reverse_linked_list.py)
