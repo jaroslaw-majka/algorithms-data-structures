@@ -21,3 +21,4 @@ Currently covered operations are:
 * Merge Two Sorted Linked Lists: [`merge_sorted_lists.py`](/linked_lists/merge_sorted_lists.py)
 * Remove n-th Node from the end: [`remove_nth_node_from_end.py`](/linked_lists/remove_nth_node_from_end.py)
 * Remove duplicates from sorted Linked List: [`remove_duplicates_from_sorted.py`](/linked_lists/remove_duplicates_from_sorted.py)
+* Find Linked Lists Intersection: [`lists_intersection.py`](/linked_lists/lists_intersection.py)

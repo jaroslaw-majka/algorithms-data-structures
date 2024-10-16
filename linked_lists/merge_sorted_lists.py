@@ -19,7 +19,7 @@ def merge_two_sorted_lists(list_one: Node, list_two: Node):
             list_two = list_two.next
         # Move current to the next value
         current = current.next
-    
+
     # Append remaining nodes
     current.next = list_one if list_one else list_two
     return sorted_node.next
