@@ -1,8 +1,10 @@
-from linked_list_node import create_five_element_list, print_linked_list
+from linked_list_node import create_five_element_list, print_linked_list, Node
 
 
-def reverse_linked_list(head):
-
+def reverse_linked_list(head: Node):
+    '''
+        Reverses the Linked List.
+    '''
     previous = None
     current = head
     while current:

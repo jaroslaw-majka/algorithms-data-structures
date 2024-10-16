@@ -14,3 +14,7 @@ Currently covered methods:
 # Linked Lists
 
 This section is about Linked Lists, a short overview of those can be found [here](/linked_lists/README.md)
+
+Currently covered operations are:
+* Reverse linked list: [`reverse_linked_list.py`](/linked_lists/reverse_linked_list.py)
+* Detect cycle: [`detect_cycle.py`](/linked_lists/detect_cycle.py)
