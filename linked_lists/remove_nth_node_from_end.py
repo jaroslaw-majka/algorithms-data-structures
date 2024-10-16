@@ -20,7 +20,7 @@ def remove_nth_from_end(head: Node, n: int):
     while first:
         first = first.next
         second = second.next
-    
+
     # Appoint second.next to the Node 2 nodes away.
     second.next = second.next.next
     return dummy.next
