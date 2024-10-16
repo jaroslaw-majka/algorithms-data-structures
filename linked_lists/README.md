@@ -12,3 +12,4 @@ Most of the operations presented in this section will be performed based on the 
 Currently covered operations are:
 * Reverse linked list: [`reverse_linked_list.py`](/linked_lists/reverse_linked_list.py)
 * Detect cycle: [`detect_cycle.py`](/linked_lists/detect_cycle.py)
+* Merge Two Sorted Linked Lists: [`merge_sorted_lists.py`](/linked_lists/merge_sorted_lists.py)
