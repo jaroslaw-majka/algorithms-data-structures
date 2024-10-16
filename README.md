@@ -7,6 +7,6 @@ This section describes basic array manipulation methods.
 The section files can be found in `/arrays` directory of this repository.
 
 Currently available methods:
-* Prefix Sum: `prefix_sum.py`
-* Sliding Window: `sliding_window.py`
-* Two Pointer Technique: `two_pointer.py`
+* Prefix Sum: [`prefix_sum.py`](/arrays/prefix_sum.py)
+* Sliding Window: [`sliding_window.py`](/arrays/sliding_window.py)
+* Two Pointer Technique: [`two_pointer.py`](/arrays/two_pointer.py)
