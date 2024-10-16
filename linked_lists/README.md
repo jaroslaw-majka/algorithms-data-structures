@@ -8,3 +8,7 @@ Each **node** contains at least 2 fields:
 ## Section information
 
 Most of the operations presented in this section will be performed based on the [linked_list_node.py](/linked_lists/linked_list_node.py) file, and the objects defined there.
+
+Currently covered operations are:
+* Reverse linked list: [`reverse_linked_list.py`](/linked_lists/reverse_linked_list.py)
+* Detect cycle: [`detect_cycle.py`](/linked_lists/detect_cycle.py)
