@@ -6,6 +6,18 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    def __repr__(self):
+        '''
+            Repr for better visualization and understanding purposes.
+        '''
+        node = self.head
+        nodes = []
+        while node:
+            nodes.append(str(node.data))
+            node = node.next
+        nodes.append("None")
+        return " -> ".join(nodes)
+
 
 class Node:
     '''
@@ -36,3 +48,5 @@ def create_five_element_list():
     second_node.next = third_node
     third_node.next = fourth_node
     fourth_node.next = fifth_node
+
+    return linked_list
