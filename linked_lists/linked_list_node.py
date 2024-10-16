@@ -2,9 +2,9 @@ class Node:
     '''
         Node class representation of singly-linked node.
     '''
-    def __init__(self, data):
+    def __init__(self, data=0, next_node=None):
         self.data = data
-        self.next = None
+        self.next = next_node
 
 
 def create_five_element_list():
