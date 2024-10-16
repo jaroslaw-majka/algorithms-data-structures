@@ -1,19 +1,6 @@
 from linked_list_node import Node, print_linked_list
 from merge_sorted_lists import merge_two_sorted_lists
-
-
-# Split the list into two halves
-def split_list(head):
-    slow, fast = head, head.next
-
-    # Move slow pointer one step and fast pointer two steps to find the middle
-    while fast and fast.next:
-        slow = slow.next
-        fast = fast.next.next
-
-    middle = slow.next
-    slow.next = None  # Split the list into two halves
-    return head, middle
+from split_in_half import split_list
 
 
 # Merge Sort function
