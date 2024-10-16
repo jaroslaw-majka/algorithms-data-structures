@@ -13,3 +13,4 @@ Currently covered operations are:
 * Reverse linked list: [`reverse_linked_list.py`](/linked_lists/reverse_linked_list.py)
 * Detect cycle: [`detect_cycle.py`](/linked_lists/detect_cycle.py)
 * Merge Two Sorted Linked Lists: [`merge_sorted_lists.py`](/linked_lists/merge_sorted_lists.py)
+* Remove n-th Node from the end: [`remove_nth_node_from_end.py`](/linked_lists/remove_nth_node_from_end.py)
