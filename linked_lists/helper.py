@@ -23,7 +23,7 @@ def create_linked_list(length: int = 5):
     return head
 
 
-def print_linked_list(head):
+def print_linked_list(head: Node):
     '''
         Helper function for printing linked list
     '''
