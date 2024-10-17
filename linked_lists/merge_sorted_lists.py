@@ -1,4 +1,4 @@
-from linked_list_node import Node, print_linked_list
+from helper import Node, print_linked_list
 
 
 def merge_two_sorted_lists(list_one: Node, list_two: Node):

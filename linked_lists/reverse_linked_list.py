@@ -1,4 +1,4 @@
-from linked_list_node import create_five_element_list, print_linked_list, Node
+from helper import create_five_element_list, print_linked_list, Node
 
 
 def reverse_linked_list(head: Node):

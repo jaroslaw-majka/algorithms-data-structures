@@ -1,4 +1,4 @@
-from linked_list_node import Node, create_five_element_list, print_linked_list
+from helper import Node, create_five_element_list, print_linked_list
 
 
 def split_list(head: Node):
