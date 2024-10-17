@@ -1,4 +1,4 @@
-from linked_list_node import create_five_element_list, print_linked_list, Node
+from helper import create_linked_list, print_linked_list, Node
 
 
 def reverse_linked_list(head: Node):
@@ -21,7 +21,7 @@ def reverse_linked_list(head: Node):
 
 
 # Use helper function to create 5 element linked list
-linked_list = create_five_element_list()
+linked_list = create_linked_list()
 print_linked_list(linked_list)
 
 # Reverse linked list and print

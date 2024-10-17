@@ -1,4 +1,4 @@
-from linked_list_node import Node, print_linked_list
+from helper import Node, print_linked_list
 from merge_sorted_lists import merge_two_sorted_lists
 from split_in_half import split_list
 

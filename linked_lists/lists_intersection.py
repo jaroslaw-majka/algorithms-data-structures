@@ -1,4 +1,4 @@
-from linked_list_node import Node, print_linked_list
+from helper import Node, print_linked_list
 
 
 def get_intersection_node(list_one: Node, list_two: Node):
