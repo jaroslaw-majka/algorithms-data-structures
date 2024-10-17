@@ -1,4 +1,4 @@
-from helper import Node, create_five_element_list, print_linked_list
+from helper import Node, create_linked_list, print_linked_list
 
 
 def split_list(head: Node):
@@ -21,7 +21,7 @@ def split_list(head: Node):
 
 
 # Create Linked List
-linked_list = create_five_element_list()
+linked_list = create_linked_list()
 print_linked_list(linked_list)
 
 # Split linked list into two lists in the middle
