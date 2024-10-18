@@ -33,3 +33,4 @@ Currently covered Tree operations are:
 * Traversals: [traversals.py](/trees/traversals.py)
 * Insert into BST: [insert_bst.py](/trees/insert_bst.py)
 * Search BST: [search_bst.py](/search/search_bst.py)
+* Delete Node from BST: [delete_node_bst.py](/trees/delete_node_bst.py)

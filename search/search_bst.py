@@ -13,10 +13,8 @@ def search_bst(root, value):
     if value < root.value:
         # If value is lower than current root.value search left Node
         return search_bst(root.left, value)
-    else:
-        # Otherwise search right Node
-        return search_bst(root.right, value)
-    
+    return search_bst(root.right, value)
+
 
 if __name__ == '__main__':
     # Example usage

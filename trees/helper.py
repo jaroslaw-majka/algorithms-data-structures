@@ -18,11 +18,11 @@ def create_bst():
         Create Binary Search Tree
 
         Structure overview:
-            root: TreeNode(4)
-                left_node (parent root): TreeNode(2) -> This node has 2 more
-                nodes: TreeNode(1), TreeNode(3)
-                right_node (parent root): TreeNode(6) -> This node has 2 more
-                nodes: TreeNode(5), TreeNode(7)
+                4
+               | |
+              2   6
+             | | | |
+             1 3 5 7
     '''
     root = TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)), TreeNode(6, TreeNode(5), TreeNode(7)))
     return root
