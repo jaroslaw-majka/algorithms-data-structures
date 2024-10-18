@@ -24,3 +24,7 @@ Currently covered operations are:
 * Find Linked Lists Intersection: [`lists_intersection.py`](/linked_lists/lists_intersection.py)
 * Sort Linked List (merge sort): [`sort_linked_lists.py`](/linked_lists/sort_linked_lists.py)
 * Split Linked List in half: [`split_in_half.py`](/linked_lists/split_in_half.py)
+
+# Trees
+
+Trees represent hierarchical data, a tree is a non-linear data structure consisting of node, where each node contains a value and references to its child nodes. More on trees can be found [here](/trees/README.md)
