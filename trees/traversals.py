@@ -2,10 +2,6 @@ from collections import deque
 from helper import create_bst
 
 
-# Create Binary Search Tree
-bst = create_bst()
-
-
 def in_order_traversal(root):
     '''
         Traverses the Tree "In order" meaning Left -> Root -> Right
@@ -14,11 +10,6 @@ def in_order_traversal(root):
         in_order_traversal(root.left)
         print(root.value, end=" ")
         in_order_traversal(root.right)
-
-
-# Example usage:
-print('In order Traversal')
-in_order_traversal(bst)
 
 
 def pre_order_traversal(root):
@@ -31,11 +22,6 @@ def pre_order_traversal(root):
         pre_order_traversal(root.right)
 
 
-# Example usage
-print('\nPre-order Traversal')
-pre_order_traversal(bst)
-
-
 def post_order_traversal(root):
     '''
         Traverses the Tree in "Post-Order" meaning Left -> Right -> Root
@@ -44,11 +30,6 @@ def post_order_traversal(root):
         post_order_traversal(root.left)
         post_order_traversal(root.right)
         print(root.value, end=" ")
-
-
-# Example usage
-print('\nPost-order Traversal')
-post_order_traversal(bst)
 
 
 def level_order_traversal(root):
@@ -75,6 +56,19 @@ def level_order_traversal(root):
             queue.append(node.right)
 
 
-# Example usade
-print('\nLevel order Traversal')
-level_order_traversal(bst)
+if __name__ == '__main__':
+    # Create Binary Search Tree
+    bst = create_bst()
+
+    # Example usage:
+    print('In order Traversal')
+    in_order_traversal(bst)
+
+    print('\nPre-order Traversal')
+    pre_order_traversal(bst)
+
+    print('\nPost-order Traversal')
+    post_order_traversal(bst)
+
+    print('\nLevel order Traversal')
+    level_order_traversal(bst)

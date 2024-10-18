@@ -41,3 +41,4 @@ For Tree operations we will use Classes and Functions available in the [helper.p
 
 Currently covered Tree operations are:
 * Traversals: [traversals.py](/trees/traversals.py)
+* Insert into BST: [insert_bst.py](/trees/insert_bst.py)
