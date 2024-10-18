@@ -32,3 +32,4 @@ Trees represent hierarchical data, a tree is a non-linear data structure consist
 Currently covered Tree operations are:
 * Traversals: [traversals.py](/trees/traversals.py)
 * Insert into BST: [insert_bst.py](/trees/insert_bst.py)
+* Search BST: [search_bst.py](/search/search_bst.py)
