@@ -28,3 +28,6 @@ Currently covered operations are:
 # Trees
 
 Trees represent hierarchical data, a tree is a non-linear data structure consisting of node, where each node contains a value and references to its child nodes. More on trees can be found [here](/trees/README.md)
+
+Currently covered Tree operations are:
+* Traversals: [traversals.py](/trees/traversals.py)

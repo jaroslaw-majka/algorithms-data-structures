@@ -35,3 +35,9 @@ A heap is a special tree-based data structure that satisfies the heap property:
 ###  Trie (Prefix Tree)
 A trie is a tree-like data structure used to store strings, where each node represents a character of the string. It's mainly used for string searching, like in autocomplete systems.
 
+# Tree operations
+
+For Tree operations we will use Classes and Functions available in the [helper.py](/trees/helper.py) script.
+
+Currently covered Tree operations are:
+* Traversals: [traversals.py](/trees/traversals.py)

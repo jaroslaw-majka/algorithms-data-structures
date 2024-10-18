@@ -7,7 +7,7 @@ Each **node** contains at least 2 fields:
 
 ## Section information
 
-Most of the operations presented in this section will be performed based on the [linked_list_node.py](/linked_lists/linked_list_node.py) file, and the objects defined there.
+Most of the operations presented in this section will be performed based on the [helper.py](/linked_lists/helper.py) file, and the objects defined there.
 
 Currently covered operations are:
 * Reverse linked list: [`reverse_linked_list.py`](/linked_lists/reverse_linked_list.py)
