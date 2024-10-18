@@ -13,9 +13,9 @@ class TreeNode:
         self.right = right
 
 
-def create_tree():
+def create_bst():
     '''
-        Create Tree
+        Create Binary Search Tree
 
         Structure overview:
             root: TreeNode(4)
