@@ -4,11 +4,12 @@ from helper import create_bst
 def height(root):
     '''
         Calculates the height of the tree.
-        Recursive function that uses DFS to traverse the tree and with each iteration returns depth value
+        Recursive function that uses DFS to traverse the tree and with each
+        iteration returns depth value
     '''
     if not root:
         return 0
-    
+
     left_height = height(root.left)
     right_height = height(root.right)
 
