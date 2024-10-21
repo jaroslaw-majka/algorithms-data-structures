@@ -25,8 +25,9 @@ def merge_two_sorted_lists(list_one: Node, list_two: Node):
     return sorted_node.next
 
 
-test_list_one = Node(1, Node(3, Node(4)))
-test_list_two = Node(1, Node(2, Node(5)))
+if __name__ == '__main__':
+    test_list_one = Node(1, Node(3, Node(4)))
+    test_list_two = Node(1, Node(2, Node(5)))
 
-merged_lists = merge_two_sorted_lists(test_list_one, test_list_two)
-print_linked_list(merged_lists)
+    merged_lists = merge_two_sorted_lists(test_list_one, test_list_two)
+    print_linked_list(merged_lists)

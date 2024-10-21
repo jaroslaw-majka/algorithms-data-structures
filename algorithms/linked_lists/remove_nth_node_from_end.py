@@ -26,10 +26,11 @@ def remove_nth_from_end(head: Node, n: int):
     return dummy.next
 
 
-# Create Linked List
-linked_list = create_linked_list()
-print_linked_list(linked_list)
+if __name__ == '__main__':
+    # Create Linked List
+    linked_list = create_linked_list()
+    print_linked_list(linked_list)
 
-# Remove 2nd from the end Node
-linked_list = remove_nth_from_end(linked_list, 2)
-print_linked_list(linked_list)
+    # Remove 2nd from the end Node
+    linked_list = remove_nth_from_end(linked_list, 2)
+    print_linked_list(linked_list)

@@ -16,10 +16,11 @@ def get_intersection_node(list_one: Node, list_two: Node):
     return a
 
 
-# Create 2 Linked Lists
-test_one = Node(1, Node(2, Node(5, Node(6))))
-# List two will intersect List One
-test_two = Node(3, Node(4, test_one.next.next))
+if __name__ == '__main__':
+    # Create 2 Linked Lists
+    test_one = Node(1, Node(2, Node(5, Node(6))))
+    # List two will intersect List One
+    test_two = Node(3, Node(4, test_one.next.next))
 
-intersection = get_intersection_node(test_one, test_two)
-print_linked_list(intersection)
+    intersection = get_intersection_node(test_one, test_two)
+    print_linked_list(intersection)
