@@ -16,10 +16,11 @@ def remove_duplicates(head: Node):
     return head
 
 
-# Create Linked List with duplicates
-linked_list = Node(1, Node(1, Node(1, Node(2, Node(3, Node(3))))))
-print_linked_list(linked_list)
+if __name__ == '__main__':
+    # Create Linked List with duplicates
+    linked_list = Node(1, Node(1, Node(1, Node(2, Node(3, Node(3))))))
+    print_linked_list(linked_list)
 
-# Remove duplicates
-linked_list = remove_duplicates(linked_list)
-print_linked_list(linked_list)
+    # Remove duplicates
+    linked_list = remove_duplicates(linked_list)
+    print_linked_list(linked_list)

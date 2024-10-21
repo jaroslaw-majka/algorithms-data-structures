@@ -19,10 +19,11 @@ def has_cycle(head: Node):
     return False
 
 
-# Linked List without a cycle
-linked_list = create_linked_list()
-print(has_cycle(linked_list))
+if __name__ == '__main__':
+    # Linked List without a cycle
+    linked_list = create_linked_list()
+    print(has_cycle(linked_list))
 
-# Create Linked List cycle
-linked_list.next.next.next.next.next = linked_list.next
-print(has_cycle(linked_list))
+    # Create Linked List cycle
+    linked_list.next.next.next.next.next = linked_list.next
+    print(has_cycle(linked_list))

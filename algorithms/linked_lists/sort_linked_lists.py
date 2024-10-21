@@ -22,12 +22,13 @@ def merge_sort(head):
     return merge_two_sorted_lists(left_sorted, right_sorted)
 
 
-# Example usage:
-linked_list = Node(4, Node(2, Node(1, Node(3, Node(2)))))
-print("Original list:")
-print_linked_list(linked_list)
+if __name__ == '__main__':
+    # Example usage:
+    linked_list = Node(4, Node(2, Node(1, Node(3, Node(2)))))
+    print("Original list:")
+    print_linked_list(linked_list)
 
-# Apply merge sort
-sorted_linked_list = merge_sort(linked_list)
-print("Sorted list:")
-print_linked_list(sorted_linked_list)
+    # Apply merge sort
+    sorted_linked_list = merge_sort(linked_list)
+    print("Sorted list:")
+    print_linked_list(sorted_linked_list)

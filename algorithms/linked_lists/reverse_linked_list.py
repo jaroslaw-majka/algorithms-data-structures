@@ -20,10 +20,11 @@ def reverse_linked_list(head: Node):
     return previous
 
 
-# Use helper function to create 5 element linked list
-linked_list = create_linked_list()
-print_linked_list(linked_list)
+if __name__ == '__main__':
+    # Use helper function to create 5 element linked list
+    linked_list = create_linked_list()
+    print_linked_list(linked_list)
 
-# Reverse linked list and print
-reversed_list = reverse_linked_list(linked_list)
-print_linked_list(reversed_list)
+    # Reverse linked list and print
+    reversed_list = reverse_linked_list(linked_list)
+    print_linked_list(reversed_list)
