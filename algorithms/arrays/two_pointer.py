@@ -30,4 +30,4 @@ if __name__ == '__main__':
     # Example usage
     test_arr = [10, 2, 3, 6, 7, 9]
     target_sum = 9
-    print(two_sum(test_arr, target_sum))  # Output: (2, 7)
+    print(two_sum(test_arr, target_sum))

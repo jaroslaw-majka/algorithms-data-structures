@@ -28,4 +28,4 @@ if __name__ == '__main__':
     # Example usage
     test_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     window_size = 3
-    print(max_sum_subarray(test_arr, window_size))  # Output: 24 (subarray [7, 8, 9])
+    print(max_sum_subarray(test_arr, window_size))

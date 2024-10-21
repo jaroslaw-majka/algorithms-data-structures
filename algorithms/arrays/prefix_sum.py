@@ -16,6 +16,7 @@ def prefix_sum(arr):
         prefix[i] = prefix[i - 1] + arr[i]
     return prefix
 
+
 def subarray_sum(arr, i, j):
     '''
         Slices the prefixed array and calculates subarray sum
