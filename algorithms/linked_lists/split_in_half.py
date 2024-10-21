@@ -20,11 +20,12 @@ def split_list(head: Node):
     return head, middle
 
 
-# Create Linked List
-linked_list = create_linked_list()
-print_linked_list(linked_list)
+if __name__ == '__main__':
+    # Create Linked List
+    linked_list = create_linked_list()
+    print_linked_list(linked_list)
 
-# Split linked list into two lists in the middle
-list_one, list_two = split_list(linked_list)
-print_linked_list(list_one)
-print_linked_list(list_two)
+    # Split linked list into two lists in the middle
+    list_one, list_two = split_list(linked_list)
+    print_linked_list(list_one)
+    print_linked_list(list_two)
