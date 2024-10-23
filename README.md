@@ -35,3 +35,11 @@ Currently covered Tree operations are:
 * Search BST: [search_bst.py](/algorithms/search/search_bst.py)
 * Delete Node from BST: [delete_node_bst.py](/algorithms/trees/delete_node_bst.py)
 * Calculate Tree height: [bt_height.py](/algorithms/trees/bt_height.py)
+
+# Sorting
+
+Sorting algorithms are a foundation of programming. Therefore it is essential to know how they work and their complexity
+
+Currently covered sorting algorithms are:
+* Sort Linked List (merge sort): [`sort_linked_lists.py`](/algorithms/linked_lists/sort_linked_lists.py)
+* Merge Sort on array: [`merge_sort.py`](/algorithms/sorting/merge_sort.py)

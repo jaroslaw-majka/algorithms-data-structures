@@ -1,4 +1,15 @@
 def merge_sort(arr):
+    '''
+        Merge Sort algorithm for sorting arrays.
+        Merge sort is splitting array in 2 untill the base cas eis met (1 or no
+        items in the array), and then merges the arrays together.
+
+        This method sorts the array in-place, meaning that it does not return a
+        new array object, but sorts the initial array.
+
+        The complexity of merge sort algorithm is O(n log n), where `n` is the
+        number of elements in the array
+    '''
     if len(arr) > 1:
         # Divide the array into two halves
         mid = len(arr) // 2
@@ -32,3 +43,11 @@ def merge_sort(arr):
             arr[k] = right_half[j]
             j += 1
             k += 1
+
+
+
+if __name__ == '__main__':
+    # Example usage
+    unsorted_array = [38, 27, 43, 3, 9, 82, 10]
+    merge_sort(unsorted_array)
+    print("Sorted array:", unsorted_array)
