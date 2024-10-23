@@ -42,4 +42,4 @@ Sorting algorithms are a foundation of programming. Therefore it is essential to
 
 Currently covered sorting algorithms are:
 * Sort Linked List (merge sort): [`sort_linked_lists.py`](/algorithms/linked_lists/sort_linked_lists.py)
-* Merge Sort on array: [`merge_sort.py`](/algorithms/sorting/merge_sort.py)
+* Merge Sort on an array: [`merge_sort.py`](/algorithms/sorting/merge_sort.py)
