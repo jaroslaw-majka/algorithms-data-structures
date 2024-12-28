@@ -1,4 +1,4 @@
-from trees.helper import create_bst
+from algorithms.trees.helper import create_bst
 
 
 def search_bst(root, value):
