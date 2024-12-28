@@ -2,11 +2,11 @@ from helper import Node, print_linked_list
 
 
 def get_intersection_node(list_one: Node, list_two: Node):
-    '''
+    """
         Searches for intersection of two Linked Lists.
 
         Returns intersection
-    '''
+    """
     a, b = list_one, list_two
     # Traverse through the linked lists, compare current value of both lists,
     # if it's the same, then Intersection is found.

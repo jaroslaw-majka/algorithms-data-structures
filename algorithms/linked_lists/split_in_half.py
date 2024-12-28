@@ -2,12 +2,12 @@ from helper import Node, create_linked_list, print_linked_list
 
 
 def split_list(head: Node):
-    '''
+    """
         Split one Linked List into two using fast, and slow pointers.
 
         When fast pointer reaches the end of the list, slow pointer will be in
         the middle of the List, this is where we split.
-    '''
+    """
     slow, fast = head, head.next
 
     # Move slow pointer one step and fast pointer two steps to find the middle
