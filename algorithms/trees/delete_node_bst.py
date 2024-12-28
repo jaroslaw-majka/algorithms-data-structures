@@ -4,13 +4,13 @@ from traversals import level_order_traversal
 
 
 def delete_node(root, value):
-    '''
+    """
         Deleting a node from a Binary Search Tree involves 3 cases:
         * The node is a leaf: Just remove the node.
         * The node has one child: Replace the node with its child.
         * The node has two children: Replace the node with the in-order
           successor (smallest node in the right subtree).
-    '''
+    """
     # Value is not in the Tree so we return.
     if not root:
         return root
@@ -31,7 +31,7 @@ def delete_node(root, value):
 
         # Node with two children: Find the in-order successor
         temp = find_min(root.right)
-        # After we found the successor we assign it's value as current
+        # After we found the successor we assign its value as current
         # root.value
         root.value = temp.value
         # Then we delete the successor
@@ -40,9 +40,9 @@ def delete_node(root, value):
 
 
 def find_min(node):
-    '''
+    """
         Helper function used for finding the successor (lowest value node)
-    '''
+    """
     while node.left:
         node = node.left
     return node
