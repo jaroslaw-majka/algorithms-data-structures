@@ -2,10 +2,10 @@ from helper import Node, print_linked_list
 
 
 def remove_duplicates(head: Node):
-    '''
+    """
         Remove duplicates from sorted Linked List by checking value of the next
         Node and skipping it if needed
-    '''
+    """
     current = head
     while current and current.next:
         if current.data == current.next.data:

@@ -3,9 +3,9 @@ from helper import create_bst
 
 
 def in_order_traversal(root):
-    '''
+    """
         Traverses the Tree "In order" meaning Left -> Root -> Right
-    '''
+    """
     if root:
         in_order_traversal(root.left)
         print(root.value, end=" ")
@@ -13,9 +13,9 @@ def in_order_traversal(root):
 
 
 def pre_order_traversal(root):
-    '''
+    """
         Traverses the Tree in "Pre-order" meaning Root -> Left -> Right
-    '''
+    """
     if root:
         print(root.value, end=" ")
         pre_order_traversal(root.left)
@@ -23,9 +23,9 @@ def pre_order_traversal(root):
 
 
 def post_order_traversal(root):
-    '''
+    """
         Traverses the Tree in "Post-Order" meaning Left -> Right -> Root
-    '''
+    """
     if root:
         post_order_traversal(root.left)
         post_order_traversal(root.right)
@@ -33,12 +33,12 @@ def post_order_traversal(root):
 
 
 def level_order_traversal(root):
-    '''
+    """
         Traverses the Tree in level order.
-        Meaning it traverses from Root, then roots childs, then childs of childs and so on.
+        Meaning it traverses from Root, then roots children, then children of children and so on.
 
         This method is also known as Breadth-first Search
-    '''
+    """
     if not root:
         return
 

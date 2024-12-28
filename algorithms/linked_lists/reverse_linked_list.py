@@ -2,9 +2,9 @@ from helper import create_linked_list, print_linked_list, Node
 
 
 def reverse_linked_list(head: Node):
-    '''
+    """
         Reverses the Linked List.
-    '''
+    """
     previous = None
     current = head
     while current:

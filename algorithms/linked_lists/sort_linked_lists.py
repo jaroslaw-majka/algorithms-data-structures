@@ -5,9 +5,9 @@ from split_in_half import split_list
 
 # Merge Sort function
 def merge_sort(head):
-    '''
+    """
         Recursive function which sorts Linked List using merge sort algorithm.
-    '''
+    """
     # Base case: if head is None or there is only one node
     if not head or not head.next:
         return head
