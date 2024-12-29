@@ -18,3 +18,4 @@ Currently covered operations are:
 * Find Linked Lists Intersection: [`lists_intersection.py`](/algorithms/linked_lists/lists_intersection.py)
 * Sort Linked List (merge sort): [`sort_linked_lists.py`](/algorithms/linked_lists/sort_linked_lists.py)
 * Split Linked List in half: [`split_in_half.py`](/algorithms/linked_lists/split_in_half.py)
+* Rotate Linked List [`rotate.py`](/algorithms/linked_lists/rotate.py)
