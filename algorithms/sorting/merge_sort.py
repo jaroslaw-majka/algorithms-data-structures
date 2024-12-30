@@ -1,7 +1,7 @@
-def merge_sort(arr):
-    '''
+def merge_sort(arr: list):
+    """
         Merge Sort algorithm for sorting arrays.
-        Merge sort is splitting array in 2 untill the base cas eis met (1 or no
+        Merge sort is splitting array in 2 until the base case is met (1 or no
         items in the array), and then merges the arrays together.
 
         This method sorts the array in-place, meaning that it does not return a
@@ -9,7 +9,7 @@ def merge_sort(arr):
 
         The complexity of merge sort algorithm is O(n log n), where `n` is the
         number of elements in the array
-    '''
+    """
     if len(arr) > 1:
         # Divide the array into two halves
         mid = len(arr) // 2
