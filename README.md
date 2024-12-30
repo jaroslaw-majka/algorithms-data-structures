@@ -38,9 +38,11 @@ Currently covered Tree operations are:
 
 # Sorting
 
-Sorting algorithms are a foundation of programming. Therefore it is essential to know how they work and their complexity
+Sorting algorithms are a foundation of programming. Therefore, it is essential to know how they work and their complexity
 
 Currently covered sorting algorithms are:
 * Sort Linked List (merge sort): [`sort_linked_lists.py`](/algorithms/linked_lists/sort_linked_lists.py)
 * Merge Sort on an array: [`merge_sort.py`](/algorithms/sorting/merge_sort.py)
 * Quick Sort on an array: [`quick_sort.py`](/algorithms/sorting/quick_sort.py)
+
+In [measuring_sorting_time.py](/examples/sorting/measuring_sorting_time.py) you can see sorting time differences between some of the above algorithms.
