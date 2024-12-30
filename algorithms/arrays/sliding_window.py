@@ -1,14 +1,14 @@
 def max_sum_subarray(arr, k):
-    '''
+    """
         This function searches for maximum sum of a subarray of size `k`
 
-        The sliding window technique is useful for finding subarrays 
+        The sliding window technique is useful for finding subarrays
         that meet certain criteria.
 
         Usually with this technique you initialize starting window with it's
         values, and then iterate through the iterable, starting from `k`-th
         element
-    '''
+    """
     # Initialize window sum
     # Basically get the sum of first `k` elements of an array
     max_sum = current_sum = sum(arr[:k])

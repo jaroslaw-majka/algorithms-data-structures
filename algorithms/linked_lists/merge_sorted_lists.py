@@ -2,9 +2,9 @@ from helper import Node, print_linked_list
 
 
 def merge_two_sorted_lists(list_one: Node, list_two: Node):
-    '''
+    """
         Merges two sorted Linked Lists into one, new sorted List.
-    '''
+    """
     sorted_node = Node()
     current = sorted_node
 

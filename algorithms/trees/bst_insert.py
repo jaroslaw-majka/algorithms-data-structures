@@ -1,11 +1,11 @@
 from helper import TreeNode
-from traversals import in_order_traversal
+from bt_traversals import in_order_traversal
 
 
 def insert_into_bst(root, value):
-    '''
+    """
         Inserts value(s) into a Binary Search Tree.
-    '''
+    """
     if not root:
         return TreeNode(value)
     if value < root.value:
