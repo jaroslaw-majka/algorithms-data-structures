@@ -30,8 +30,8 @@ Currently covered operations are:
 Trees represent hierarchical data, a tree is a non-linear data structure consisting of node, where each node contains a value and references to its child nodes. More on trees can be found [here](/algorithms/trees/README.md)
 
 Currently covered Tree operations are:
-* Traversals: [traversals.py](/algorithms/trees/traversals.py)
-* Insert into BST: [insert_bst.py](/algorithms/trees/insert_bst.py)
+* Traversals: [traversals.py](/algorithms/trees/bt_traversals.py)
+* Insert into BST: [insert_bst.py](/algorithms/trees/bst_insert.py)
 * Search BST: [search_bst.py](/algorithms/search/search_bst.py)
-* Delete Node from BST: [delete_node_bst.py](/algorithms/trees/delete_node_bst.py)
+* Delete Node from BST: [delete_node_bst.py](/algorithms/trees/bst_delete_node.py)
 * Calculate Tree height: [bt_height.py](/algorithms/trees/bt_height.py)
