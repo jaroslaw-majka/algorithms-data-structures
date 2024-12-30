@@ -1,6 +1,6 @@
 # pylint: disable=W0105
 from helper import create_bst
-from traversals import level_order_traversal
+from bt_traversals import level_order_traversal
 
 
 def delete_node(root, value):
