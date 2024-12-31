@@ -1,16 +1,16 @@
 from random import randint
 from time import time
 
-from algorithms.sorting import quick_sort, merge_sort
+from algorithms.sorting import quick_sort, merge_sort, insertion_sort
 
 
 def time_sorting_algorithm(algorithm, arr_length: int = 10000):
     """
-    Counts the execution time of sorting algorithm
+        Counts the execution time of sorting algorithm
 
-    Args:
-        algorithm: sorting algorithm that will be tested
-        arr_length: array length to be used by sorting algorithm
+        Args:
+            algorithm: sorting algorithm that will be tested
+            arr_length: array length to be used by sorting algorithm
     """
 
     arr = [randint(1, 1000) for _ in range(arr_length)]
@@ -23,5 +23,6 @@ def time_sorting_algorithm(algorithm, arr_length: int = 10000):
 
 
 if __name__ == '__main__':
-    time_sorting_algorithm(quick_sort, 1000000)
-    time_sorting_algorithm(merge_sort, 1000000)
+    time_sorting_algorithm(quick_sort)
+    time_sorting_algorithm(merge_sort)
+    time_sorting_algorithm(insertion_sort)
