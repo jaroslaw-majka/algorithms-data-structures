@@ -30,3 +30,4 @@ factorial(2) = 2, so 3 * 2 return 6
 factorial(3) = 6, so 4 * 6 return 24
 # End the recursive function
 ```
+The recursive function will first go into the max depth until it reaches the base case, and then will go back in LIFO (last in, first out) order.
