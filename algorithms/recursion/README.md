@@ -35,3 +35,7 @@ return 1
 # End the recursive function
 ```
 The recursive function will first go into the max depth until it reaches the base case, and then will go back in LIFO (last in, first out) order.
+
+## Currently covered algorithms
+
+* Euclidean algorithm for calculating `a` to the power of `b`: [`euclidean.py`](/algorithms/recursion/euclidean.py)

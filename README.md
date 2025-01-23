@@ -5,6 +5,9 @@ Algorithms and Data Structures for Python
 
 This section is about recursive functions and how they work. More detailed information can be found [here](/algorithms/recursion/README.md)
 
+Currently covered algorithms are:
+* Euclidean algorithm for calculating `a` to the power of `b`: [`euclidean.py`](/algorithms/recursion/euclidean.py)
+
 # Arrays
 
 This section describes basic array manipulation methods.
