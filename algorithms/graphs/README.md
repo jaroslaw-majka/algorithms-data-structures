@@ -21,3 +21,8 @@ They also can be:
        |
        D
 
+# Important algorithms
+
+There are 2 main algorithms used when working with graphs:
+* DFS - depth first search
+* BFS - breadth first search
