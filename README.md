@@ -58,3 +58,4 @@ In [measuring_sorting_time.py](/examples/sorting/measuring_sorting_time.py) you 
 # Graphs
 
 A graph is a data structure used to represent relationships, or connections between elements. More about graphs can be found [here](algorithms/graphs/README.md)
+
