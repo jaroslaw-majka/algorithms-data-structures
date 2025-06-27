@@ -41,3 +41,4 @@ def create_graph(edges: list[list[int]] = None):
 if __name__ == '__main__':
     gr = [[0, 1], [0, 2], [1, 2], [2, 3], [5, 6], [6, 4], [6, 0]]
     create_graph(gr)
+
