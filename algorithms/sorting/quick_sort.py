@@ -1,7 +1,7 @@
 from random import randint
 
 
-def quick_sort(arr: list) -> list:
+def quick_sort(arr: list[int]) -> list[int]:
     """
         Quicksort algorithm applies the divide-and-conquer principle to divide
         the input array into two lists, the first list with small items and the
@@ -18,7 +18,9 @@ def quick_sort(arr: list) -> list:
     if len(arr) < 2:
         return arr
 
-    low, same, high = [], [], []
+    low: list[int] = []
+    same: list[int] = []
+    high: list[int] = []
 
     # Randomly create pivot element from the initial array
     pivot = arr[randint(0, len(arr) - 1)]

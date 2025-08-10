@@ -1,4 +1,4 @@
-def merge_sort(arr: list):
+def merge_sort(arr: list[int]):
     """
         Merge Sort algorithm for sorting arrays.
         Merge sort is splitting array in 2 until the base case is met (1 or no

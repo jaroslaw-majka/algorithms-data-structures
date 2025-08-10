@@ -1,4 +1,4 @@
-def insertion_sort(arr):
+def insertion_sort(arr: list[int]):
     """
         Insertion Sorting algorithm.
         You can think as this algorithm splits the array in two parts.

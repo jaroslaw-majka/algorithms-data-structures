@@ -1,7 +1,7 @@
-from algorithms.trees.helper import create_bst
+from algorithms.trees.helper import create_bst, TreeNode
 
 
-def search_bst(root, value):
+def search_bst(root: TreeNode, value: int):
     """
         Binary Tree Search is efficient because we can leverage the Tree
         Structure where left node has a lower value than the root value. So
